@@ -1,0 +1,142 @@
+<!DOCTYPE html>                                                         <!--definido que o documento será do tipo html-->
+<html lang="pt-br">                                                     <!--abertura do elemento html para execução do site e definindo a linguagem do site para português do Brasil-->
+    <head>                                                              <!--Definido o início do local onde ficam os metadados-->
+        <meta charset="utf-8">                                          <!--definimos como metadados o charset (pacote de caracteres) para o padrão do Brasil -->
+        <title>Minha Página</title>                                     <!--definido o título da página no navegador-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>                                                             <!--finaliza o comando de onde ficam locados os metadados-->
+    
+    <body>                                                              <!--abre o corpo do página-->
+        <p>Minha Primeira Página</p>                                    <!--parágrafo com o titulo da pagina-->
+        <!--lista de navegação do site-->                               
+         <nav>                                                          <!--abre a seção de criação da parte de navegação pelo site-->
+            <ul>                                                        <!--abre o item de criação de listas, caso queira uma listagem com quadrados coloque "<ul type=square>" faça os "<li>" normalmente-->
+                <li> <a href="#servicos">SERVIÇOS</a>   </li>                                       
+                <li> <a href="#clientes">CLIENTES</a>   </li>           <!--os elementos li servem para criação de um marcador-->
+                <li> <a href="#parceiros">PARCEIROS</a> </li>           <!--os elementos a servem para referenciar um texto a um link, para isso devemos usar a tag href="#link"-->
+                <li> <a href="#time">TIME</a>           </li>           <!--o link do href deverá referenciar um id criado em uma das seções do site-->
+                <li> <a href="#contato">CONTATO</a>     </li>
+            </ul>
+         </nav>
+
+        <header>                                                        <!--abertura do cabeçalho da página-->
+            <h1>Minha Página</h1>                                       <!--h1 é um paragrafo com um título MAIOR, nesse caso o minha pagina fica com uma fonte pré-definida pelo código html-->
+            <p>Oferecemos o desenvolvimento dos melhores sites e 
+                apps para sua empresa</p>                               <!--abertura de um parágrafo em uma linha e terminar em outra não afeta o posicionamento do que foi escrito no site-->
+        </header>                                                       <!--fechamento do cabeçalho da página-->
+        <!--SEÇÃO DE SERVIÇOS-->
+        <section id="servicos">                                         <!--criação de uma seção-->
+            <h2>SERVIÇOS</h2>                                           <!--título com tamanho h2 que é menor que h1-->
+            <P>                                                         
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+            </P>
+           <!--FOTOS DE SERVIÇOS-->
+            <div>
+                <img src="img/serviços1.jpg" alt="Reunião com           
+                grandes ideias" width="400" class="img_padrao">         <!--podemos usar o comando alt="" para indicar uma descrição a foto quando ela não é carregada-->
+                <img src="img/serviços2.jpg" alt="Reunião 
+                colaborativa" width="400" class="img_padrao">
+            </div>
+            <div>
+                <img src="img/serviços2.jpg" alt="Reunião 
+                colaborativa" width="400" class="img_padrao">           <!--class="nomedaimagem" - deve ser utilizado para criar uma classe para as fotos, de forma a subdividir essas fotos e poder trabalhar com elas de forma individual-->
+                <img src="img/serviços1.jpg" alt="Reunião com           
+                grandes ideias" width="400" class="img_padrao">
+            </div>                                                      <!--com a criação da classe das fotos nós temos subdivisões em novas classes de fotos e não apenas 1 grande divisão de fotos-->
+        </section>                                                      <!--fecha a seção-->
+        <!--SEÇÃO DE CLIENTES-->
+        <section id="clientes">
+            <h2>CLIENTES</h2>
+            <p>
+                Nossos clientes ficaram muito satisfeitos com os
+                serviços prestados.
+            </p>
+            <!--FOTOS DE CLIENTES-->
+            <div>
+                <img src="img/cliente1.jpg" alt="Clientes sorriem em 
+                uma mesa" width="300" class="img_padrao">
+            </div>
+            <div>
+                <img src="img/cliente2.jpg" alt="Cliente 
+                satisfeita" width="400" class="img_padrao">
+            </div>
+        </section>
+        <!--SEÇÃO DE PARCEIROS-->
+        <section id="parceiros">
+            <h2>PARCEIROS</h2>
+            <p>
+                Nossos parceiros são parceiros para a vida, temos 
+                orgulho de trabalhar com grandes nomes, entregando-lhes 
+                trabalhos de qualidade.
+            </p>
+            <!--FOTOS DE PARCEIROS-->
+            <div>
+                <a href="https://digitalinnovation.one/" target="_blank">           <!--utilizar  target="_blank"  para abrir o link em uma nova aba ao invés de abrir na aba atual-->
+                    <img src="img/DIO Parceria.png" alt="Parceria com a 
+                    Digital Inovation One" width="150" class="partner">                             <!--utilizar a tag "target" dentro da tag href permite a você impor que o link deverá abrir em uma nova aba-->
+                </a>
+            </div>
+        </section>
+        <!--SEÇÃO DE TIME-->
+        <section id="time">
+            <h2>TIME</h2>
+            <p>
+                Trabalho integrado e foco no resultado de qualidade, 
+                são características de nossa equipe.
+            </p>
+        <!--FOTOS DO TIME-->
+        <div>
+            <img src="img/time.jpg" alt="Time unido e voltado para 
+            a criação de sites" width="400" class="img_padrao">
+        </div>
+        </section>
+        <!--SEÇÃO DE CONTATO-->
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>
+                Entre em contato para mais informações, estamos 
+                preparados para atende-lo.
+            </p>
+        <!--IMAGENS DE CONTATO-->
+        <div>
+            <img src="img/contato telefone.jpg" alt="Ligue ou mande      
+            e-mail para" class="logo">                                              <!--REMOVIDO o item width, pois ele será herdado do CSS criado-->
+            <p><a href="mailto:contato@siteloco.com">contato@siteloco.com</a></p>   <!--devemos utilizar href="mailto:email@email.com" para criar um link de e-mail-->
+            <p><a href="tel:9999999999">(99) 9999-9999</a></p>                      <!--devemos referenciar o contato com "tel:COLOCAR_TELEFONE"-->
+        </div>
+        </section>
+
+        <footer>                                                                    <!--abertura do rodapé da página-->
+            
+            <p>Desenvolvido por Anderson Donnarumma Sponchiado</p>                  <!--parágrafo para a colocação de um texto-->
+        </footer>                                                                   <!--fechamento do título da página-->
+
+    </body>                                                                         <!--fecha o corpo da página-->
+
+
+
+   
+</html>                                                                             <!--definido o final do elemento html-->

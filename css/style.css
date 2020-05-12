@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(189, 184, 134);
+    margin-left: 150px;
+    margin-right: 300px;                      
+}
+
+header{
+    margin-top: 80px;
+}
+
+h1{
+    color: rgb(24, 24, 161);
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: Verdana;
+    margin-top: 80px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.img_padrao {
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 700px;
+}
+
+.partner {
+    width: 300px;
+}
+
+.logo {
+    width: 250px;
+}
+
+footer{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
